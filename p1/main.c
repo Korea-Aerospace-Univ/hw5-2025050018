@@ -8,10 +8,7 @@ int main() {
     scanf("%d", &N);
 
     for(i = 1; i * 900 <= N; i++) {
-        for(j = 1; j * 750 <= N; j++) {
-
-            if(j % 2 != 0);  
-
+        for(j = 2; j * 750 <= N; j+=2) { 
             for(k = 1; k * 200 <= N; k++) {
 
                 if(900*i + 750*j + 200*k == N) {
